@@ -44,7 +44,7 @@ if version >= 700 " Vim 7.x specific colors
  hi MatchParen guifg=#f6f3e8 guibg=#857b6f gui=bold ctermfg=white ctermbg=darkgray 
  hi Pmenu guifg=#f6f3e8 guibg=#444444 ctermfg=white ctermbg=242 
  hi PmenuSel guifg=#000000 guibg=#cae682 ctermfg=0 ctermbg=195 
- hi Search gui=underline cterm=underline
+ hi Search guifg=#000000 guibg=#cae682 ctermfg=0 ctermbg=195 
 endif
 
 " Syntax highlighting
@@ -56,7 +56,7 @@ hi Keyword guifg=#96CBFE ctermfg=117
 hi PreProc guifg=#96CBFE ctermfg=117 
 hi Conditional guifg=#6699CC ctermfg=110 
 
-hi Todo guifg=#8f8f8f ctermfg=245 
+hi Todo guifg=#000000 guibg=#cae682 ctermfg=0 ctermbg=195 
 hi Constant guifg=#99CC99 ctermfg=151 
 
 hi Identifier guifg=#C6C5FE ctermfg=189 
