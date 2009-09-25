@@ -13,24 +13,24 @@ endif
 let colors_name = "tir_black"
 
 " General colors
-hi Normal guifg=#f6f3e8 guibg=black ctermfg=white ctermbg=0 
-hi NonText guifg=#070707 guibg=black ctermfg=232 ctermbg=0 
+hi Normal guifg=#f6f3e8 guibg=black ctermfg=white ctermbg=0
+hi NonText guifg=#070707 guibg=black ctermfg=232 ctermbg=0
 
-hi Cursor guifg=black guibg=white ctermfg=0 ctermbg=15 
-hi LineNr guifg=#3D3D3D guibg=black ctermfg=239 ctermbg=0 
+hi Cursor guifg=black guibg=white ctermfg=0 ctermbg=15
+hi LineNr guifg=#3D3D3D guibg=black ctermfg=239 ctermbg=0
 
-hi VertSplit guifg=#202020 guibg=#202020 ctermfg=234 ctermbg=234 
-hi StatusLine guifg=#CCCCCC guibg=#202020 gui=italic ctermfg=0 ctermbg=245 
-hi StatusLineNC guifg=black guibg=#202020 ctermfg=0 ctermbg=234 
+hi VertSplit guifg=#202020 guibg=#202020 ctermfg=235 ctermbg=235 
+hi StatusLine guifg=#CCCCCC guibg=#202020 gui=italic ctermfg=235 ctermbg=254
+hi StatusLineNC guifg=black guibg=#202020 ctermfg=0 ctermbg=235 
 
-hi Folded guifg=#a0a8b0 guibg=#384048 ctermfg=103 ctermbg=60 
+hi Folded guifg=#a0a8b0 guibg=#384048 ctermfg=103 ctermbg=60
 hi Title guifg=#f6f3e8 gui=bold ctermfg=187 cterm=bold
-hi Visual guibg=#262D51 ctermbg=60 
+hi Visual guibg=#262D51 ctermbg=60
 
-hi SpecialKey guifg=#808080 guibg=#343434 ctermfg=8 ctermbg=236 
+hi SpecialKey guifg=#808080 guibg=#343434 ctermfg=8 ctermbg=236
 
-hi WildMenu guifg=black guibg=#cae682 ctermfg=0 ctermbg=195 
-hi PmenuSbar guifg=black guibg=white ctermfg=0 ctermbg=15 
+hi WildMenu guifg=black guibg=#cae682 ctermfg=0 ctermbg=195
+hi PmenuSbar guifg=black guibg=white ctermfg=0 ctermbg=15
 
 hi Error gui=undercurl ctermfg=203 ctermbg=none cterm=underline guisp=#FF6C60
 hi ErrorMsg guifg=white guibg=#FF6C60 gui=bold ctermfg=white ctermbg=203 cterm=bold
@@ -40,7 +40,7 @@ hi ModeMsg guifg=black guibg=#C6C5FE gui=bold ctermfg=0 ctermbg=189 cterm=bold
 
 if version >= 700 " Vim 7.x specific colors
  hi CursorLine guibg=#121212 gui=none ctermbg=234 cterm=none
- hi CursorColumn guibg=#121212 cterm=bold
+ hi CursorColumn guibg=#121212 gui=none ctermbg=234 cterm=none
  hi MatchParen guifg=#f6f3e8 guibg=#857b6f gui=bold ctermfg=white ctermbg=darkgray 
  hi Pmenu guifg=#f6f3e8 guibg=#444444 ctermfg=white ctermbg=242 
  hi PmenuSel guifg=#000000 guibg=#cae682 ctermfg=0 ctermbg=195 
